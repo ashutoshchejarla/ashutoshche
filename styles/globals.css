@@ -1,5 +1,5 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -120,4 +120,64 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Added custom animations for floating elements and iOS-style interactions */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-10px) rotate(2deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(-1deg);
+  }
+  75% {
+    transform: translateY(-15px) rotate(1deg);
+  }
+}
+
+@keyframes floatSlow {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(3deg);
+  }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+.float-slow {
+  animation: floatSlow 8s ease-in-out infinite;
+}
+
+.glassmorphism {
+  background: rgba(248, 249, 250, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(222, 226, 230, 0.3);
+  box-shadow: 0 8px 32px rgba(33, 37, 41, 0.1);
+}
+
+.dark .glassmorphism {
+  background: rgba(52, 58, 64, 0.8);
+  border: 1px solid rgba(173, 181, 189, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.ios-button {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ios-button:hover {
+  transform: scale(1.05);
+}
+
+.ios-button:active {
+  transform: scale(0.95);
 }
