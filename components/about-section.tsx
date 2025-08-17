@@ -22,14 +22,13 @@ export function AboutSection() {
 
           <div className="space-y-4 text-secondary leading-relaxed">
             <p className="text-lg">
-              I'm a passionate full-stack developer with over 5 years of experience creating beautiful, functional web
+              I'm a passionate aspiring full-stack developer with over 5 years of experience creating beautiful, functional web
               applications. My journey in tech started with a curiosity about how websites work, and it has evolved into
               a deep love for crafting digital experiences.
             </p>
 
             <p className="text-lg">
-              I specialize in modern JavaScript frameworks, particularly React and Next.js, and have extensive
-              experience with backend technologies including Node.js, Python, and various databases. I believe in
+              I specialize in Web Develiping, Especially in HTML and CSS. I believe in
               writing clean, maintainable code and creating user-centered designs.
             </p>
 
@@ -40,7 +39,7 @@ export function AboutSection() {
           </div>
 
           <div className="flex flex-wrap gap-3 pt-4">
-            {["React", "Next.js", "TypeScript", "Node.js", "Python", "AWS"].map((skill) => (
+            {["HTML", "CSS", "AI", "Scratch block coding", "Video Editing", "Graphic Designing"].map((skill) => (
               <span key={skill} className="px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
                 {skill}
               </span>
