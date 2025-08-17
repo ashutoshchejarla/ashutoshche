@@ -10,28 +10,28 @@ export function ProjectsSection() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with payment integration",
-      technologies: ["Next.js", "Stripe", "PostgreSQL", "Tailwind CSS"],
+      title: "Family Info",
+      description: "A website which has all the information regarding oyur family including a family tree and family history in English, Hindi and Marathi.",
+      technologies: ["HTML", "CSS"],
       demoGif: "/ecommerce-demo.gif",
-      githubUrl: "https://github.com/username/ecommerce",
-      liveUrl: "https://ecommerce-demo.vercel.app",
+      githubUrl: "https://github.com/ashutoshchejarla/familyinfo",
+      liveUrl: "https://ashutoshchejarla.github.io/familyinfo",
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management with real-time updates",
-      technologies: ["React", "Socket.io", "Node.js", "MongoDB"],
+      title: "Portfolio Website",
+      description: "A portfolio website made using HTML and CSS",
+      technologies: ["HTML", "CSS"],
       demoGif: "/taskapp-demo.gif",
-      githubUrl: "https://github.com/username/taskapp",
-      liveUrl: "https://taskapp-demo.vercel.app",
+      githubUrl: "https://github.com/ashutoshchejarla/ashutoshchejarlaa",
+      liveUrl: "https://ashutoshchejarla.github.io/ashutoshchejarlaa",
     },
     {
-      title: "Weather Dashboard",
-      description: "Beautiful weather app with location-based forecasts",
-      technologies: ["Vue.js", "Weather API", "Chart.js", "CSS3"],
+      title: "Flappy Bird (PC)",
+      description: "A Flappy Bird game made using Scratch Engine and the HTMLIFIED",
+      technologies: ["Scratch", "HTMLIFIER"],
       demoGif: "/weather-demo.gif",
-      githubUrl: "https://github.com/username/weather",
-      liveUrl: "https://weather-demo.vercel.app",
+      githubUrl: "https://github.com/ashutoshchejarla/flappybird",
+      liveUrl: "https://ashutoshchejarla.github.io/flappybird",
     },
   ]
 
