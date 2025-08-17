@@ -13,11 +13,11 @@ export function HeroSection() {
         {/* Hero Content */}
         <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 font-sans">
           Hello, I'm{" "}
-          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Your Name</span>
+          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Ashutosh Chejarla</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-secondary mb-8 font-light max-w-2xl mx-auto leading-relaxed">
-          A passionate developer crafting beautiful digital experiences with modern technologies
+          A passionate developer crafting beautiful digital experiences with modern technologies such as AI
         </p>
 
         {/* CTA Buttons */}
@@ -25,7 +25,7 @@ export function HeroSection() {
           <button className="px-8 py-4 bg-primary text-primary-foreground rounded-2xl font-medium hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
             View My Work
           </button>
-          <button className="px-8 py-4 glassmorphism text-foreground rounded-2xl font-medium hover:scale-105 transition-all duration-200">
+          <button className="px-8 py-4 glassmorphism text-foreground rounded-2xl font-medium hover:scale-105 transition-all duration-200" href="instagram.com/notreallyashutosh">
             Get In Touch
           </button>
         </div>
